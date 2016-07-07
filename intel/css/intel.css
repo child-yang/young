@@ -1,0 +1,105 @@
+body {
+  padding-top: 50px;
+}
+#login_box div.panel {
+  width: 400px;
+  color: black;
+}
+#login_box div.panel div.panel-body {
+  color: #ccc;
+}
+.search {
+  color: black;
+}
+.img_title {
+  position: absolute;
+  bottom: 25px;
+  left: 30px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+}
+div.col-md-12.col-sm-6.col-xs-12 {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+div.col-md-12.col-sm-6.col-xs-12 .half_mask {
+  position: absolute;
+  top: 71%;
+  left: 14px;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 93%;
+  padding: 0 25px;
+  height: 100%;
+  color: #ffffff;
+  transition: all 0.25s linear;
+}
+div.col-md-12.col-sm-6.col-xs-12 .half_mask:hover {
+  top: 0px;
+}
+div.col-md-12.col-sm-6.col-xs-12 .media {
+  padding: 5px;
+  background-color: #0081d6;
+  text-align: center;
+}
+div.col-md-12.col-sm-6.col-xs-12 .media .media-left {
+  padding: 15px;
+}
+div.col-md-12.col-sm-6.col-xs-12 .media .media-body {
+  border-left: 1px solid #5bc0de;
+}
+div.col-md-12.col-sm-6.col-xs-12 .list-unstyled {
+  padding: 15px;
+  line-height: 26px;
+  font-size: 15px;
+}
+div.col-md-12.col-sm-6.col-xs-12 .list-unstyled a {
+  color: #fff;
+}
+body {
+  font-family: "microsoft yahei";
+  color: #fff;
+  background-color: #0062a8;
+}
+.navbar {
+  background-color: #0071c5;
+  border-bottom: 4px solid #0062a8;
+}
+.navbar li a {
+  color: #fff !important;
+}
+.navbar .navbar-header a.navbar-brand {
+  background-image: url("../img/hdr-spr.png");
+  background-position: 0 350px;
+  width: 64px;
+  height: 44px;
+}
+.navbar #nav_intel a,
+.navbar #nav_intel .dropdown-menu {
+  background: #0081d6;
+}
+.navbar #nav_intel a:hover {
+  background-color: #5bc0de;
+}
+footer div.row {
+  background-color: #fff;
+  color: #0071c5;
+  padding: 10px;
+}
+footer div.row ul li {
+  line-height: 35px;
+}
+footer div.row ul > li {
+  color: black;
+}
+footer div.row ul li span {
+  display: inline-block;
+  background-image: url('../img/social_sprite_smushed.png');
+  background-position: 0 88px;
+  margin-right: 7px;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  top: 7px;
+}
