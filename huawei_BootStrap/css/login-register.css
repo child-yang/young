@@ -1,0 +1,28 @@
+div.dialog {
+  width: 70%;
+  margin: 10px auto;
+}
+#header {
+  width: 100%;
+  background-color: #eee;
+  border: 1px solid #ddd;
+}
+#header > .top {
+  width: 70%;
+  margin: 0px auto;
+  padding: 10px 0px;
+}
+.tips_main {
+  position: absolute;
+  padding-left: 15px;
+  background: url("../images/tips_citation.gif") no-repeat 0 -4px;
+  z-index: 99;
+  display: none;
+}
+.tips_main .tips_text {
+  background-color: #ffff99;
+  border-top: #cfcbcc 1px solid;
+  border-right: #cfcbcc 1px solid;
+  border-bottom: #cfcbcc 1px solid;
+  padding: 5px 10px 5px 10px;
+}

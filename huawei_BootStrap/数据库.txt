@@ -1,0 +1,10 @@
+端口:
+3307
+数据库名:
+app_wanghp
+主库地址:
+w.rdc.sae.sina.com.cn
+从库地址:
+r.rdc.sae.sina.com.cn
+端口:
+3307

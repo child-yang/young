@@ -1,0 +1,226 @@
+#header {
+  background-color: #5C5C58;
+}
+#nav_top > ul > li > a {
+  color: #fff;
+}
+#nav_top > ul > li > a:hover {
+  color: #333;
+}
+#nav_top > ul > li.active > a {
+  color: #333;
+}
+#nav_collapse form {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#nav_collapse > ul > li > a {
+  padding: 26px 10px;
+}
+.navbar-toggle {
+  margin-top: 23px;
+  margin-bottom: 23px;
+}
+header .navbar {
+  margin-bottom: 0px;
+  background-color: #fff;
+  border: none;
+}
+header div[aria-expanded='true'] {
+  border: 1px solid #eee;
+  background-color: #f7f7f7;
+}
+#nav {
+  background-color: #eee;
+  padding: 2px 0px;
+}
+#nav .nav-pills > li.active > a {
+  background-color: #fff;
+  color: #666;
+  border-radius: 4px;
+}
+#nav .nav-pills > li.active > a:hover {
+  border-bottom-color: transparent;
+}
+#nav .nav-pills > li > a {
+  color: #666;
+  border-bottom: 2px solid transparent;
+  border-radius: 0px;
+  font-size: 1.2em;
+}
+#nav .nav-pills > li > a:hover {
+  color: #e4393c;
+  border-bottom-color: #e4393c;
+}
+#carousel_hw .carousel-control.left {
+  background: transparent;
+}
+#carousel_hw .carousel-control.right {
+  background: transparent;
+}
+#carousel_hw .carousel-indicators li {
+  border-color: #e4393c;
+}
+#carousel_hw .carousel-indicators li.active {
+  background-color: #e4393c;
+}
+#section {
+  overflow: hidden;
+  margin: 15px 0px;
+}
+#section .row {
+  background-color: #F7F7F7;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+#section a {
+  display: inline-block;
+  font-size: 1.5em;
+  padding: 10px 0px;
+  margin: 0px 5px;
+  color: #666;
+}
+#section .list-unstyled {
+  position: absolute;
+  top: 0px;
+}
+#section .list-unstyled li {
+  height: 50px;
+}
+#section .list-unstyled li a {
+  font-size: 1.2em;
+  line-height: 35px;
+}
+#section div > span {
+  display: block;
+  margin: 7px;
+  padding-left: 24px;
+  cursor: pointer;
+}
+#main img {
+  width: 100%;
+}
+#main h3 > a {
+  font-size: 0.7em;
+  color: #444;
+  font-weight: 900;
+}
+#main p {
+  color: #666;
+}
+#main .container {
+  margin-bottom: 20px;
+}
+#footer1 {
+  background-color: #F5F5F5;
+  padding-bottom: 20px;
+}
+#footer1 h3 {
+  text-align: center;
+}
+#footer1 h3 a {
+  font-weight: bold;
+}
+#footer1 a {
+  font-size: 1em;
+  color: #444;
+}
+#footer1 div > p {
+  float: right;
+  width: 70%;
+  line-height: 30px;
+}
+#footer1 div > a > img {
+  width: 25%;
+}
+#footer2 {
+  background-color: #333;
+  padding: 30px 0px;
+}
+#footer2 .list-unstyled > li {
+  color: #fff;
+  font-weight: bolder;
+  font-size: 1.5em;
+}
+#footer2 .list-unstyled > li a {
+  display: inline-block;
+  color: #fff;
+  font-weight: normal;
+  font-size: 0.8em;
+  padding: 3px 0px;
+}
+#footer2 .list-inline {
+  margin: 15px 0px;
+}
+#footer2 div.col-sm-4 > div > img {
+  width: 25%;
+}
+#footer2 div.col-sm-4 > div h3 {
+  color: #fff;
+  font-size: 1.3em;
+}
+#footer2 #foot_bottom {
+  padding-top: 15px;
+}
+#footer2 #foot_bottom a,
+#footer2 #foot_bottom p {
+  color: #fff;
+}
+#footer2 #foot_bottom .list-inline {
+  margin: 0px;
+}
+#footer2 #foot_bottom .list-inline li {
+  border-left: 2px solid #fff;
+  padding: 0px 8px;
+}
+#footer2 #foot_bottom .list-inline li:first-child {
+  border-left: none;
+  padding-left: 0;
+}
+#right_iconbox {
+  width: 48px;
+  position: fixed;
+  z-index: 999;
+  right: 0px;
+  top: 50%;
+  margin-top: -100px;
+}
+#right_iconbox a {
+  display: block;
+  width: 48px;
+  height: 48px;
+  margin-bottom: 4px;
+  background: url("../images/icon_all.png") #cfcfcf;
+}
+#right_iconbox a:hover {
+  background-color: #CB3535;
+}
+#right_iconbox a.js-goto-top {
+  opacity: 0;
+  -webkit-transition: opacity 0.5s linear;
+  -moz-transition: opacity 0.5s linear;
+  -ms-transition: opacity 0.5s linear;
+  -o-transition: opacity 0.5s linear;
+  transition: opacity 0.5s linear;
+}
+#right_iconbox a.js-goto-top.show {
+  opacity: 1;
+}
+#right_iconbox a.js-feedback-btn {
+  background-position: 0px 338px;
+}
+#right_iconbox a.js-feedback-btn:hover {
+  background-position: 0px 145px;
+}
+#right_iconbox a.js-email-btn {
+  background-position: 0px 288px;
+}
+#right_iconbox a.js-email-btn:hover {
+  background-position: 0px 98px;
+}
+#right_iconbox a.js-fade-box {
+  background-position: 0px 240px;
+}
+#right_iconbox a.js-fade-box:hover {
+  background-position: 0px 50px;
+}

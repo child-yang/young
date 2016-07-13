@@ -1,0 +1,320 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width,initial-scale=1"/>
+		<title>华为 - 更美好的全联接世界</title>
+		<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+		<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+		<link rel="stylesheet" href="css/hw_index.css" type="text/css" />
+		<link rel="icon" href="images/icon.ico">
+	</head>
+	<body>
+	<!-----------网页顶部----------->
+		<header>
+			<div id="header">
+				<div class="container">
+					<div class="row">
+						<div class="hidden-xs col-sm-12" id="nav_top">
+							<ul class="nav nav-tabs">
+								<li class="active"><a href="#">首页</a></li>
+								<li ><a href="#">个人与家庭用户</a></li>
+								<li ><a href="#">企业用户</a></li>
+								<li ><a href="#">运营商用户</a></li>
+								<li ><a href="../huawei">旧版官网入口</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<nav class="navbar navbar-default">
+					<div class="navbar-header">
+						<a href="#" class="navbar-brand"><img src="images/logo_new.png"/></a>
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav_collapse">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+					</div>
+					<div class="collapse navbar-collapse" id="nav_collapse">
+						<form class="navbar-form navbar-right">
+							<div class="form-group">
+								<input type="text" class="form-control" placeholder="查找">
+							</div>
+							<button type="submit" class="btn btn-default">搜索</button>
+						</form>
+						<ul class="nav navbar-nav navbar-right">
+							<li><a href="#">选择区域/语言</a></li>
+							<li id="login_wel"><a href='accounts/login.html'>登录</a></li>
+							<li id="regist_name"><a href="accounts/register.html">注册</a></li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+			<div id="nav">
+				<div class="container">
+					<div class="row">
+						<div class="hidden-xs col-sm-12">
+							<ul class="nav nav-pills">
+								<li class="active dropdown">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">我想...
+										<span class="caret"></span>
+									</a>
+									<ul class="dropdown-menu" role="menu">
+										<li><a href="#">访问消费者业务网站</a></li>
+										<li><a href="#">访问企业网业务网站</a></li>
+										<li><a href="#">了解华为</a></li>
+										<li><a href="#">在线反馈</a></li>
+									</ul>
+								</li>
+								<li class="dropdown">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">行业洞察
+										<span class="caret"></span>
+									</a>
+									<ul class="dropdown-menu" role="menu">
+										<li><a href="#">查找解决方案</a></li>
+										<li><a href="#">查找商用产品</a></li>
+										<li><a href="#">联系销售</a></li>
+										<li><a href="#">获得技术支持</a></li>
+										<li><a href="#">访问企业业务网站&gt;</a></li>
+									</ul>
+								</li>
+								<li ><a href="#">解决方案</a></li>
+								<li ><a href="#">服务</a></li>
+								<li ><a href="#">产品</a></li>
+								<li ><a href="#">技术支持</a></li>
+								<li ><a href="#">开发者社区</a></li>
+								<li ><a href="#">华为商城</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+	<!-----------广告轮播----------->
+		<div id="carousel_hw" class="carousel slide" data-ride="carousel"><!---轮播间隔- data-interval="3000"---->
+			<ul class="carousel-indicators">
+				<li data-target="#carousel_hw" data-slide-to="0" class="active"></li>
+				<li data-target="#carousel_hw" data-slide-to="1"></li>
+				<li data-target="#carousel_hw" data-slide-to="2"></li>
+				<li data-target="#carousel_hw" data-slide-to="3"></li>
+				<li data-target="#carousel_hw" data-slide-to="4"></li>
+			</ul>
+			<div class="carousel-inner">
+				<div class="item active">
+					<img src="images/banner_bg1.jpg">
+					<div class="carousel-caption"></div>
+				</div>
+				<div class="item">
+					<img src="images/banner_bg2.jpg">
+					<div class="carousel-caption"></div>
+				</div>
+				<div class="item">
+					<img src="images/banner_bg3.jpg">
+					<div class="carousel-caption"></div>
+				</div>
+				<div class="item">
+					<img src="images/banner_bg1.jpg">
+					<div class="carousel-caption"></div>
+				</div>
+				<div class="item">
+					<img src="images/banner_bg2.jpg">
+					<div class="carousel-caption"></div>
+				</div>
+			</div>
+			<!-- Controls -->
+			<a class="left carousel-control" href="#carousel_hw"data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="right carousel-control" href="#carousel_hw"data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
+		<!-----------网页主体----------->
+		<div id="section">
+			<div class="container">
+				<div class="row">
+					<div class="hidden-xs">
+						<div class="row">
+							<div class="col-sm-2"><a href="#">新闻</a></div>
+							<div  class="col-sm-9" id='news'>
+								<ul class="list-unstyled">
+								</ul>
+							</div>
+							<div class="col-sm-1">
+								<span class="glyphicon glyphicon-chevron-up"></span>
+								<span class="glyphicon glyphicon-chevron-down"></span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="main">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 col-sm-4">
+						<a href="#"><img src="images/has2016_1.jpg"></a>
+						<h3><a href="#">加速数字化转型，共建更美好的全联接世界</a></h3>
+						<p>全球数字化进程正在加速，在垂直行业、公共服务、个人生活等领域正全方位提升社会效率和个人体验。</p>
+					</div>
+					<div class="col-xs-12 col-sm-4">
+						<a href="#"><img src="images/has2016_2.jpg"></a>
+						<h3><a href="#">推进“全面云化”战略，使能行业数字化转型</a></h3>
+						<p>在2016年华为全球分析师大会上，华为轮值CEO徐直军向与会嘉宾解读了“全面云化”战略。</p>
+					</div>
+					<div class="col-xs-12 col-sm-4">
+						<a href="#"><img src="images/winwin-24-cn.jpg"></a>
+						<h3><a href="#">《营赢》第24期</a></h3>
+						<p>本期封面：Kevin Kelly认为，未来云端将诞生无数“X即服务”。有了云，所有实体产品都可成服务。</p>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="video">
+					<a href="#"><img src="images/OPEN-A-BETTER.jpg"></a>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 col-sm-4">
+						<a href="#"><img src="images/45.jpg"></a>
+						<h3><a href="#">4.5G，通往MBB 2020的成功之路</a></h3>
+						<p>作为LTE持续演进的方向和目标，4.5G是通往5G的必由之路 ，将帮助运营商在未来几年保持竞争力。</p>
+					</div>
+					<div class="col-xs-12 col-sm-4">
+						<a href="#"><img src="images/NFV.jpg"></a>
+						<h3><a href="#">NFV驶入快车道</a></h3>
+						<p>以NFV/SDN为代表的未来网络演进方向，成为运营商网络转型的关键词，有望为运营商带来巨大价值。</p>
+					</div>
+					<div class="col-xs-12 col-sm-4">
+						<a href="#"><img src="images/video.jpg"></a>
+						<h3><a href="#">如何通过视频覆盖打造最佳移动宽带网络</a></h3>
+						<p>创新的Video Coverage网络规划方法论，将如何帮助运营商构建高清视频体验无处不在的MBB网络？</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-----------网页底部1----------->
+		<div id="footer1">
+			<div class="container">
+				<h3><a href="#">展会活动</a></h3>
+				<div class="row">
+					<div class="col-xs-12 col-sm-4">
+						<h4><a href="#">2016 超宽带全球行</a></h4>
+						<a href="#"><img src="images/UBBS_cn.jpg"></a>
+						<p>UBB 2020，拥抱Gigaband时代<br>4月-7月</p>
+					</div>
+					<div class="col-xs-12 col-sm-4">
+						<h4><a href="#">CeBIT 2016</a></h4>
+						<a href="#"><img src="images/Cebit-event-small.jpg"></a>
+						<p>引领新ICT，共建全联接世界<br>德国，汉诺威 3月14-18日</p>
+					</div>
+					<div class="col-xs-12 col-sm-4">
+						<h4><a href="#">2016华为中国合作伙伴大会</a></h4>
+						<a href="#"><img src="images/chinaM.jpg"></a>
+						<p>智汇阳光，共襄新程<br>中国，成都   3月10-11日</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-----------网页底部2----------->
+		<div id="footer2">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-8">
+						<div class="row">
+							<div class="col-xs-6 col-sm-3">
+								<ul class="list-unstyled">
+									<li>按访问者</li>
+									<li><a href="#">个人用户</a></li>
+									<li><a href="#">企业用户</a></li>
+									<li><a href="#">运营商用户</a></li>
+									<li><a href="#">新闻媒体</a></li>
+									<li><a href="#">供应商</a></li>
+									<li><a href="#">求职者</a></li>
+								</ul>
+							</div>
+							<div class="col-xs-6 col-sm-3">
+								<ul class="list-unstyled">
+									<li>关于华为</li>
+									<li><a href="#">公司简介</a></li>
+									<li><a href="#">公司治理</a></li>
+									<li><a href="#">高管信息</a></li>
+									<li><a href="#">债券投资者关系</a></li>
+									<li><a href="#">可持续发展</a></li>
+									<li><a href="#">网络安全</a></li>
+									<li><a href="#">出版物</a></li>
+									<li><a href="#">公司年报</a></li>
+								</ul>
+							</div>
+							<div class="col-xs-6 col-sm-3">
+								<ul class="list-unstyled">
+									<li>新闻 & 展会</li>
+									<li><a href="#">新闻</a></li>
+									<li><a href="#">媒体工具</a></li>
+									<li><a href="#">媒体联系</a></li>
+									<li><a href="#">安全通告</a></li>
+									<li><a href="#">展会</a></li>
+								</ul>
+							</div>
+							<div class="col-xs-6 col-sm-3">
+								<ul class="list-unstyled">
+									<li>快速链接</li>
+									<li><a href="#">华为商城</a></li>
+									<li><a href="#">荣耀官网</a></li>
+									<li><a href="#">在线学习</a></li>
+									<li><a href="#">华为海洋</a></li>
+									<li><a href="#">心声社区</a></li>
+									<li><a href="#">除名查询</a></li>
+									<li><a href="#">在线反馈</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div>
+							<p><a href="#"><img src="images/pic_bcw_zi.png"></a></p>
+						</div>
+						<ul class="list-inline">
+							<li><a href="#"><img src="images/hw_u_396239.png"></a></li>
+							<li><a href="#"><img src="images/logo_linkedin.png"></a></li>
+							<li><a href="#"><img src="images/logo_twitter.png"></a></li>
+							<li><a href="#"><img src="images/logo_facebook.png"></a></li>
+							<li><a href="#"><img src="images/logo_google_15-10-27.png"></a></li>
+						</ul>
+						<div>
+							<img src="images/weixin.jpg">
+							<h3>官方微信</h3>
+						</div>
+					</div>
+				</div>
+				<div class="row" id="foot_bottom">
+					<div class="hidden-xs col-sm-8">
+						<p>版权所有&copy;本站所有信息仅供测试和学习使用</p>
+					</div>
+					<div class="col-xs-12 col-sm-4">
+						<ul class='list-inline'>
+							<li><a href="#">法律声明</a></li>
+							<li><a href="#">隐私保护</a></li>
+							<li><a href="#">联系我们</a></li>
+							<li><a href="#">网站地图</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	<!-- 右边固定按钮-->
+		<div id="right_iconbox">
+			<a href="javascript:void(0)" class="js-goto-top"></a>
+			<a href="javascript:void(0)" class="js-feedback-btn hidden-xs"></a>
+			<a href="javascript:void(0)" class="js-email-btn hidden-xs"></a>
+			<a href="javascript:void(0)" class="js-fade-box hidden-xs"></a>
+		</div>
+		<script src="js/jquery-1.11.3.js" type="text/javascript"></script>
+ 		<script src="js/bootstrap.min.js" type="text/javascript"></script>
+		<script src="js/hw_index.js"></script>
+	</body>
+</html>

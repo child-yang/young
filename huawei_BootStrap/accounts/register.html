@@ -1,0 +1,123 @@
+<!doctype html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width,initial-scale=1"/>
+		<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+		<link rel="stylesheet" href="../css/bootstrap.min.css">
+		<link rel="icon" href="../images/icon.ico">
+		<title>新用户注册</title>
+		<link rel="stylesheet" href="../css/login-register.css"/>
+	</head>
+	<body>
+	<!-- 登录和注册-->
+		<div id="header">
+			<div class="top">
+				<div class="container">
+					<img src="../images/logo_new.png">
+				</div>
+			</div>
+		</div>
+		<div class="dialog">
+			<div class="container">
+				<h3>新用户注册</h3>
+				<form class="form-horizontal" id="register">
+					<div class="form-group">
+						<label for="username" class="col-sm-2 control-label">用户名</label>
+						<div class="col-sm-5">
+							<input type="text" class="form-control" name="username" id="username" placeholder="用户名">
+						</div>
+						<div class="col-sm-5 help-block">
+							<div class="tips_main">
+								<div class="tips_text">
+									帐号应符合以下规则：<br>
+									帐号应以数字或字母开头6~16位字符。<br>
+									仅能由如下字符构成：字母，数字，下划线。<br>
+								</div>
+							</div>
+							<span></span>
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="upwda" class="col-sm-2 control-label">密码</label>
+						<div class="col-sm-5">
+							<input type="password" class="form-control" name="upwda" id="upwda" placeholder="请输入密码">
+						</div>
+						<div class="col-sm-5 help-block">
+							<div class="tips_main">
+								<div class="tips_text">
+									密码至少包含8个字符。
+								</div>
+							</div>
+							<span></span>
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="upwdb" class="col-sm-2 control-label">确认密码</label>
+						<div class="col-sm-5">
+							<input type="password" class="form-control" name="upwdb" id="upwdb" placeholder="请再次输入密码">
+						</div>
+						<div class="col-sm-5 help-block">
+							<div class="tips_main">
+								<div class="tips_text">
+									密码至少包含8个字符。
+								</div>
+							</div>
+							<span></span>
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="email" class="col-sm-2 control-label">邮箱</label>
+						<div class="col-sm-5">
+							<input type="text" class="form-control" name="email" id="email" placeholder="邮箱">
+						</div>
+						<div class="col-sm-5 help-block">
+							<div class="tips_main">
+								<div class="tips_text">
+									建议使用经常使用的邮箱。
+								</div>
+							</div>
+							<span></span>
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="col-sm-offset-2 col-sm-10">
+							<div class="checkbox">
+								<label>
+									<input type="checkbox">我已阅读并同意 <a href="#">用户注册协议</a>
+								</label>
+							</div>
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="col-sm-offset-2 col-sm-3">
+							<button type="button" class="btn btn-success btn-block">注册</button>
+						</div>
+						<div class="col-sm-2">
+							<a type="button" href="login.html" class="btn btn-info btn-block">现在登录</a>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+		<!-- 摸态框-->
+		<div class="modal fade" id="result" tabindex="-1"aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h4 class="modal-title">注册结果:</h4>
+					</div>
+					<div class="modal-body">
+						<p class="result">恭喜你注册成功！</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+						<a type="button" href="login.html" class="btn btn-primary">去登录</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="../js/jquery-1.11.3.js"></script>
+		<script src="../js/bootstrap.min.js"></script>
+		<script src="../js/login-register.js" type="text/javascript" charset="UTF-8"></script>
+	</body>
+</html>

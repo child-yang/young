@@ -1,0 +1,916 @@
+/*通用css*/
+section,footer,#banner,.main_lb{
+    border:1px solid #ddd;
+}
+body{
+/*    font:12px "microsoft yahei",Arial,Helvetica,sans-serif;*/
+    font-family: "Microsoft YaHei";
+    color:#666;
+    margin:0px;
+	background:url("images/bulls-bg_e338ee.jpg") center 5px repeat;
+
+
+}
+a{
+   font-family: "Microsoft YaHei";
+}
+ul,ol,li,p,h1,h2,h3,h4,h5,h6,dl,dt,dd{
+    margin:0px;
+    padding:0px;
+    list-style:none;
+}
+
+input{border:none;}
+
+img{
+    vertical-align:middle;
+}
+
+.lf{float:left;}
+.rt{float:right;}
+.clear{clear:both;}
+/****************************************/
+#header,#nav,#footer{
+    width:100%
+    margin:0 auto;
+}
+#main,#banner,.top_logo,.nav_01,.footer_bo{
+    width:1000px;
+    margin:0 auto;
+}
+/*顶部LOGO样式*/
+#top{
+    background:#740b27;
+    height:135px;
+}
+#top .top_logo{
+    overflow: hidden;
+   margin-top: 10px;
+}
+#top .logo{
+    float:left;
+
+}
+#top .logo_1{
+    float:left;
+    margin-left: 15px;
+}
+#top .logo_1>span{
+    display:inline-block;
+    margin-bottom: 5px;
+    color:white;
+    font-size:30px;
+    font-weight:bold;
+    font-style: italic;
+}
+#top .logo_1>a{
+    font-size:12px;
+    color:white;
+}
+#top .top_logo .logo_right{
+    display: block;
+    float:right;
+    overflow: hidden;
+   line-height: 75px;
+
+}
+#top .top_logo .logo_right li{
+    float:left;
+    margin-left:20px;
+}
+/*导航栏*/
+#nav{
+
+    background:#aa123b;
+}
+#nav .nav_01{
+  overflow: hidden;
+}
+#nav .nav_01>li{
+  float:left;
+    width:9.08%;
+    text-align: center;
+
+}
+#nav .nav_01>li>a{
+    display:block;
+    color:#fff;
+    font-size: 1.5em;
+    height:60px;
+    line-height:60px;
+}
+#nav .nav_01>li>a:hover{
+    background:#2566AF;
+	text-decoration:none;
+}
+
+/*赛事广告宣传栏*/
+#banner{
+	margin-top:20px;
+}
+#banner .match_top a{
+	display:block;
+	height:30px;
+	line-height:30px;
+	background-color:#fff;
+}
+#banner .match_bottom{
+	height:auto;
+	background:#F6F6F7;
+	overflow: hidden;
+	
+	
+}
+#banner .match_bottom .match_left{
+	float:left;
+	width:2%;
+	height:height;
+	height:130px;
+	background:#ddd;
+
+	
+}
+#banner .match_bottom .match_right{
+	float:right;
+	width:2%;
+	height:130px;
+	background:#ddd;
+	
+}
+#banner .match_bottom .match_md{
+	float:left;
+	width:96%;
+}
+#banner .match_bottom .match_md>li{
+	width:210px;
+	float:left;
+}
+#banner .match_bottom .match_md>li>.md2{
+	float:left;
+	font-weight:bold;
+	font-size:14px;
+	text-align:center;
+	
+	padding:20px 5px 0 5px;
+	line-height:20px;
+}
+#banner .match_bottom .match_md>li>.md2>p{
+	font-weight:normal;
+}
+#banner .match_bottom .md3{
+	float:left;
+	height:124px;
+	margin-top:3px;
+	background:white;
+	
+}
+#banner .match_bottom .md3 .md3_2{
+	font-size:14px;
+	background:#103F72;
+	color:white;
+	padding:2px 0 2px 10px;
+}
+#banner .match_bottom .md3 .md3_3{
+	font-size:14px;
+	border-bottom:2px solid #BC9B53;
+	padding-left:2px 0 2px 10px;
+}
+#banner .match_bottom .md3 .md3_4{
+	float:left;
+}
+#banner .match_bottom .md3 .md3_4>li{
+	margin:11px 10px 0 10px;
+	float:left;
+	text-align:center;
+}
+#banner .match_bottom .md3 .md3_4>li>img{
+	margin-bottom:10px;
+}
+#banner .match_bottom .md3 .md3_4>.vs{
+	color:red;
+	margin-top:38px;
+}
+/*主体部分*/
+#main{
+	margin-top:20px;
+	overflow:hidden;
+}
+#main .main_app>img{
+	width:100%;
+	height:auto;
+	margin-bottom:20px;
+
+}
+/*图片轮播区域*/
+#main .main_TB{
+	width:100%;
+	height:auto;
+	overflow:hidden;
+}
+#main .main_TB .main_lb{
+	width:68%;
+	
+	float:left;
+	
+}
+#ad1>div.carousel-inner>.item img{
+	width:100%;
+	height:auto;
+}
+/*右边要闻部分*/
+
+#main .main_TB .main_lb2{
+	
+	width:300px;
+	height:367px;
+	float:right;
+	background-color:#fff;
+
+}
+
+#main .main_TB .main_lb2 .headline,.radio_title,.num_title,.weibo_title,.media_title{/*标题公共样式*/
+	padding-left: 10px;
+    height: 40px;
+    line-height: 40px;
+    color:#fff;
+    font-size:18px;
+    background:#1E518C;
+}
+#main .main_TB .main_lb2 .headline_bt{
+	background:#fff;
+}
+#main .main_TB .main_lb2 .headline_bt li{
+	line-height:31px;
+}
+
+#main .main_TB .main_lb2 .headline_bt li a{
+    display: block;
+	color:#14171a;
+    padding-left: 25px;
+    background: url(images/dot_471f17.png) no-repeat 10px center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-right: 15px;
+}
+#main .main_TB .main_lb2 .headline_bt li a:hover{
+	text-decoration:none;
+	border-left:1px solid blue;
+	background-color:lightblue;
+	margin-left:-1px;
+}
+
+/*新闻栏主体 开始*/
+#main .NEWS{
+	width:100%;
+	margin-top:20px;
+	overflow:hidden;
+}
+#main .NEWS .news_left{
+	overflow:hidden;
+	width:68%;
+	background:#fff;
+	float:left;
+}
+
+#main .NEWS .news_left .new_title{
+	width:100%;
+	height:40px;
+	font-size:18px;
+	line-height:39px;
+	background:#1e518c;
+	padding:0 12px;
+	margin:0px;
+	color:#fff;
+
+}
+#main .news_left .new_title .search-ipt{
+    padding: 0 5px 0 10px;
+    width: 154px;
+    height: 28px;
+    line-height: 28px;
+    font-size: 14px;
+    border: 1px solid #EAEAEA;
+    border-right: 0;
+    border-radius: 15px 0 0 15px;
+	outline:0;
+	float:right;
+	margin-top: 5px;
+}
+#main .news_left .new_title>span{
+	background-color:#2A6CB6;
+	display:block;
+    width: 45px;
+    height: 30px;
+    border-radius: 0 15px 15px 0;
+    background: url(images/sou_01.png) no-repeat 12px 5px;
+    float:right;
+	cursor: pointer;
+	margin-top: 5px;
+}
+#main .news_left .news_list{
+	border:1px solid #ddd;
+	
+	width:100%;
+	background-color:#fff;
+	overflow:hidden;
+}
+#main .news_left .news_one{
+margin-top:20px;
+    width:678px;
+	height:186px;
+    position:relative;
+	z-index:1;
+}
+
+#main .news_left .news_list .new_001{
+	width: 678px;
+    height: 186px;
+    padding: 0 20px 0px 20px;
+    border-top: 1px solid #e8e8e8;
+   
+    overflow: hidden;
+
+}
+#main .news_left .news_list .new_001>h3{
+	font-weight:bold;
+}
+#main .news_left .news_list .new_hd{
+	font-weight:bold;
+	margin:0;
+	font-size:20px;
+	height: 52px;
+    line-height: 52px;
+}
+#main .news_left .news_list .new_bo{
+	height:90px;
+	width:100%;
+	float:left;
+	overflow:hidden;
+	margin-bottom:14px;
+
+}
+#main .news_left .news_list .new_bo .c1{
+width:25%;
+height:90px;
+	float:left;
+	overflow:hidden;
+}
+#main .news_left .news_list .new_bo .c2{
+    width:75%;
+    height:90px;
+	float:right;
+	overflow:hidden;
+	font-size:16px;
+
+}
+
+#main .new_001>a{
+	display:block;
+	color:black;
+}
+#main .new_001 a:hover{
+	color:#2587d4;
+	text-decoration:none;
+	
+}
+
+#main .new_001:hover{
+
+	padding:20px 26px 0 26px;
+	background-color:#f4faff;
+	-webkit-box-shadow: 0 3px 6px #ebebeb;
+	transition:all 0.1s linear;
+
+	
+}
+
+/****更多*****/
+#main .gengduo01{
+font-size:16px;
+text-align:center;
+margin-top:20px;
+display:block;
+width:100%;
+border-top:1px solid #e5e5e5;
+background-color:#f0f0f0;
+line-height:40px;
+    cursor: pointer;
+	border:1px solid #f0f0f0;
+
+}
+#main .gengduo01:hover{
+	background-color:#ddd;
+}
+#main .dxbu{
+	border:1px solid #ddd;
+	margin-top:20px;
+}
+/*新闻栏右边样式（侧边栏视频 开始）*/
+#main .NEWS .news_right{
+	/*border:1px solid red;*/
+	width:300px;
+	float:right;
+	margin:0 auto;
+}
+#main .NEWS .news_right .radio_01{
+	width:300px;
+	height:465px;
+	background-color:#fff;
+	position:relative;
+	z-index:1;
+}
+#main .NEWS .news_right .radio_tab{
+	width:100%;
+	overflow:hidden;
+	border: 1px solid #7A7A7A;
+    border-top: 1px solid #BE9D53;
+    background: #57595B;
+}
+#main .NEWS .news_right .radio_tab li{
+	width:99px;
+    line-height: 38px;
+    color: #FFF;
+    font-size: 16px;
+    text-align: center;
+    border-right: 1px solid #7A7A7A;
+    cursor: pointer;
+    float: left;
+    text-shadow: 0 2px 0 #3c3c3c;
+}
+#main .NEWS .news_right .radio_tab li:hover{
+	background-color:#454545;
+}
+
+#main .news_right .radio_tab .tab_001{
+	
+}
+
+/*比赛栏绝对定位（radio_001）*/
+#main .NEWS .tab_001 .radio_warp{
+	width:100%;
+	position:absolute;	
+	z-index:2005;
+	height:340px;
+	padding-top: 10px;
+    overflow:hidden;  
+}
+/*比赛栏绝对定位（radio_002）*/
+#main .NEWS .tab_002 .radio_warp{
+	width:100%;
+	position:absolute;
+	right:-1px;
+	z-index:2008;
+	height:340px;
+	padding-top: 10px;
+    overflow:hidden;  
+}
+/*比赛栏绝对定位（radio_003）*/
+#main .NEWS .tab_003 .radio_warp{
+	width:100%;
+	position:absolute;
+	right:-1px;
+	z-index:2010;
+	height:340px;
+	padding-top: 10px;
+    overflow:hidden;  
+}
+/*鼠标移入 效果的改变*/
+#main .tab_002 .radio_warp{
+	display:none;
+}
+#main .tab_003 .radio_warp{
+	display:none;
+}
+#main .tab_002:hover .radio_warp{
+ display:block;
+}
+#main .tab_003:hover .radio_warp{
+ display:block;
+}
+#main .NEWS .radio_warp a{
+	position: relative;
+	
+    margin: 10px 0 0 8px;
+    width: 135px;
+    height: 100px;
+    text-decoration: none;
+    float: left;
+	font-size:12px;
+}
+#main .NEWS .radio_warp img{
+	width:135px;
+	height:100px;
+}
+#main .NEWS .radio_warp span{
+position: absolute;
+    left: 0;
+    bottom: 0;
+   width:100%;
+    height: 25px;
+}
+#main .NEWS .radio_warp span.bg{
+	background-color:#000;
+	opacity:0.7;
+}
+#main .NEWS .radio_warp span.text{
+	padding-left: 35px;
+   
+    line-height: 25px;
+    color: #FFF;
+    text-shadow: 0 2px 0 #1a477b;
+	background: url(images/video_001235.png) no-repeat 4px 6px;
+    overflow: hidden;
+}
+#main .NEWS .radio_warp a:hover span{
+	background-color:#1a477b;
+}
+#main .NEWS .radio_btn{
+	position:relative;
+	right:0px;
+	top:340px;
+	width:100%;
+    line-height: 44px;
+    text-align: right;
+    border-bottom: 1px solid #E0E0E0;
+}
+#main .NEWS .radio_btn a{
+margin-right: 8px;
+    color: #7A7A7A;
+    font-size: 16px;
+    text-decoration: none;
+	}
+/*侧边栏数据王部分*/
+#main .data_all{
+ width:300px;
+ height:583px;
+ margin-top:20px;
+}
+#main .data_all .data_title,.union_title{
+	line-height: 50px;
+    background-color: #1e518c;
+    color: #FFF;
+    font-family: Oswald,sans-serif;
+    font-weight: 400;
+    font-size: 1.45em;
+    border-bottom: 1px solid #be9d53;
+    text-align: left;
+    padding-left: 15px;
+	position:relative;
+}
+#main .data_all .data_title div{
+	width: auto;
+    height: 35px;
+    position: absolute;
+	right:10px;
+    top: 7px;
+    
+    border: 3px solid #1a477b;
+    background-color: #1a477b;
+}
+#main .data_all .data_title div>span{
+
+    padding: 0 10px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-size: .5em;
+    float: left;
+    cursor: pointer;
+    margin-right: 3px;
+    font-family: Lato,sans-serif;
+}
+#main .data_all .data_title,.union_title div>span:hover{
+	background-color:#1e518c;
+}
+#main .data_all .game01{
+	background-color: #57595b;
+	overflow:hidden;
+}
+#main .data_all .game01 li{
+	width:60px;
+	line-height: 35px;
+    float: left;
+    text-align: center;
+    color: #FFF;
+    cursor: pointer;
+    font-family: Lato,sans-serif;
+    font-size: .85em;
+	border-left: 1px solid #7e7e7e;
+    border-bottom: 1px solid #7e7e7e;
+}
+#main .data_all .game01 li:hover{
+	background-color:#454545;
+}
+
+#main .data_all .game02{
+ line-height:26px;
+ background-color:#949494;
+ font-family: Lato,sans-serif;
+}
+#main .data_all .game02>span{
+	
+	color:#fff;
+	padding:0 10px;
+}
+#main .data_all .game03{
+ width:300px;
+ overflow: hidden;
+}
+#main .data_all .game03 .game0301{
+    width:50px;
+    height:58px;
+	background-color: #F5F5F5;
+    text-align: center;
+    padding-top:10px;
+	line-height:60px;
+    font-size: 1.4em;
+    color: #929090;
+	float:left;
+}
+#main .data_all .game03 .game0302{
+	width:200px;
+	height:58px;
+	float:left;
+	padding-top:10px;
+	background-color:#fff;
+}
+#main .data_all .game03 .game0302>img{
+	width:40px;
+	height:40px;
+	float:left;
+	margin:0px 5px 0 10px;
+}
+#main .game0302 .game_ms{
+	margin-top:5px;
+}
+#main .game0302>a{
+	margin-top:20px;
+	color:#3D70A1;
+}
+#main .game0302>span{
+	float:left;
+}
+#main .game0303{
+	width:50px;
+	height:58px;
+	float:right;
+	background-color: #fff;
+	font-size:22px;
+	font-weight:bold;
+	text-align:center;
+	line-height:65px;
+}
+
+#main .final_footer>a{
+	float:right;
+	line-height:35px;
+	margin-right:5px;
+	color:#3D70A1;
+}
+/*数据酷部分*/
+#main .num_all{
+	margin-top:20px;
+	height:170px;
+	width:300px;
+	background-color:#fff;
+	-webkit-box-shadow: 0 3px 5px #ebebeb;
+
+}
+#main .num_all .num_body{
+	border-top:1px solid #be9d53;
+	overflow: hidden;
+}
+#main .num_body>img{
+	height:90px;
+	width:90px;
+	margin:20px 10px 0 10px;
+	float:left;
+}
+#main .num_body>a{
+	display:block;
+	margin-top:20px;
+	float:left;
+	color:#121619;
+}
+#main .num_body>a:hover{
+	font-weight:bold;
+	text-decoration: none;
+}
+/*调查部分*/
+#main .num_body .num_b2{
+	margin:20px 0 10px 10px;
+	font-size:16px;
+
+}
+#main .num_body>li{
+	line-height:30px;
+	margin-left:40px;
+}
+#main .num_body .ti1{
+	margin-left:40px;
+}
+#main .num_body .ti1 button{
+	width:100px;
+	height:40px;
+	margin-top:10px;
+	font-size:16px;
+	font-weight:bold;
+}
+#main .num_body .ti1 button:hover{
+	color:#fff;
+	background-color:#4FB7F7;
+	border:1px solid #4FB7F7;
+}
+/*联盟排名部分*/
+#main .union {
+	width: 300px;
+	height: 596px;
+	margin-top: 20px;
+}
+#main .union .union_title div{
+	width: auto;
+    height: 35px;
+    position: absolute;
+	right:10px;
+    top: 7px;
+    
+    border: 3px solid #1a477b;
+    background-color: #1a477b;
+}
+#main .union .union_title div>span{
+	 padding: 0 10px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-size: .5em;
+    float: left;
+    cursor: pointer;
+    margin-right: 3px;
+    font-family: Lato,sans-serif;
+}
+#main .east01{
+	background-color: #57595b;
+	overflow:hidden;
+}
+#main .east01 li{
+	width:149px;
+	line-height: 35px;
+	float:left;
+	text-align: center;
+	color: #FFF;
+	cursor: pointer;
+	font-family: Lato,sans-serif;
+	font-size: .85em;
+	border-left: 1px solid #7e7e7e;
+}
+#main .east02{
+	height:59px;
+	width:300px;
+	background-color:#fff;
+}
+#main .east02>span{
+	font-size:24px;
+
+}
+#main .east03{
+	background-color:#9D9D9D;
+	width:300px;
+	height:30px;
+	padding-right:10px;
+	font-family: Lato,sans-serif;
+	font-size: .85em;
+}
+#main .east03 li{
+	color:#fff;
+}
+#main .east03 li:first-child{
+	width:45px;
+	text-align:center;
+	line-height:30px;
+	background-color:#918F8F;
+	float:left;
+}
+#main .east03 li:last-child{
+	float:right;
+	line-height:30px;
+}
+#main .union table{
+	width:300px;
+	/*font-family: Lato,sans-serif;*/
+	font-size: .9em;
+}
+#main .union table tbody tr{
+	height:28px;
+	background-color:#F5F5F5;
+}
+#main .union table tbody tr td:first-child{
+	width:45px;
+	padding-left:8px;
+}
+#main .union table tbody tr td:last-child{
+	float:right;
+	line-height: 28px;
+	margin-right:10px;
+}
+/*NBA 微博开始*/
+#main .weibo_all{
+	margin-top:30px;
+    height:690px;
+	width:300px;
+}
+#main .weibo_by{
+	padding-top:10px;
+	width:300px;
+	height:650px;
+	background-color:#fff;
+	border:1px solid #DFDFDF;
+	border-top-color:#BD9C55;
+}
+#main .weibo_by .by_01{
+	margin-left:10px;
+	padding-top:11px;
+	width:280px;
+	height:100px;
+	border-bottom:1px solid #ddd;
+}
+#main .weibo_by .by_02{
+	float:right;
+}
+
+/*NBA社交媒体开始*/
+#main .media_all{
+	width:300px;
+	height:315px;
+	margin-top:20px;
+}
+#main .media_by{
+	width: 300px;
+	height:275px;
+	border:1px solid #ddd;
+	border-top-color:#BD9C56;
+	background-color:#fff;
+
+}
+#main .media_by>div{
+	margin-top:15px;
+	width:99px;
+	height:110px;
+	float:left;
+	text-align:center;
+}
+#main .media_by>div img{
+	margin-bottom:5px;
+}
+/*页尾 部分*/
+#footer{
+	margin-top:20px;
+	background-color:#333;
+	overflow:hidden;
+}
+#footer .footer_md{
+	margin:0 auto;
+	width:1000px;
+	overflow:hidden;
+}
+
+#footer .footer_md .tab_about{
+	width:250px;
+	
+	float:left;
+}
+#footer .footer_md .tab_about span{
+	    font-size: 18px;
+    line-height: 65px;
+    color: #FFF;
+   
+    display: block;
+}
+#footer .footer_md .tab_about a{
+	margin-bottom: 5px;
+    color: #7A7A7A;
+    font-size: 16px;
+    display:inline block;
+}
+#footer .footer_md .tab_about a:hover{
+	text-decoration:underline;
+}
+#footer .footer_md .tab_about img{
+	margin-left:35px;
+	width:100px;
+	height:100px;
+}
+#footer .footer_bo{
+	
+	border-top:1px dotted #7A7A7A;
+	margin-top:20px;
+	padding-top:20px;
+	line-height: 30px;
+    color: #7A7A7A;
+    font-size: 16px;
+    text-align: center;
+    font-family: "Microsoft YaHei";
+}
+#footer .footer_bo a{
+	color: #7A7A7A;
+}
